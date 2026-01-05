@@ -43,10 +43,42 @@ def create_page(filename, title, content):
             <h1>{title}</h1>
             <hr>
             {content}
-            <footer style="margin-top:3rem; text-align:center;">
-                <small>&copy; 2026 {SITE_NAME}. All rights reserved.</small>
-            </footer>
+            <!-- MULAI FOOTER PICO STYLE -->
         </main>
+        <footer class="container" style="margin-top: 3rem;">
+            <hr>
+            <div class="grid">
+                <!-- Kolom 1: Brand -->
+                <div>
+                    <strong>Cek Peluang SNBP 2026</strong>
+                    <p><small>Bantu siswa Indonesia menganalisis data SNBP dengan logika statistik yang rasional.</small></p>
+                </div>
+
+                <!-- Kolom 2: Navigasi -->
+                <div>
+                    <strong>Menu</strong>
+                    <ul style="padding-left: 0; list-style: none;">
+                        <li><a href="index.html" class="secondary">Beranda</a></li>
+                        <li><a href="about.html" class="secondary">Tentang Kami</a></li>
+                        <li><a href="contact.html" class="secondary">Kontak</a></li>
+                    </ul>
+                </div>
+
+                <!-- Kolom 3: Legal -->
+                <div>
+                    <strong>Legalitas</strong>
+                    <ul style="padding-left: 0; list-style: none;">
+                        <li><a href="privacy.html" class="secondary">Privacy Policy</a></li>
+                        <li><a href="disclaimer.html" class="secondary">Disclaimer</a></li>
+                    </ul>
+                </div>
+            </div>
+            
+            <div style="text-align: center; margin-top: 2rem;">
+                <small>© 2026 Cek Peluang SNBP. Data source: SNPMB BPPP.</small>
+            </div>
+        </footer>
+        <!-- SELESAI FOOTER -->
     </body>
     </html>
     """
